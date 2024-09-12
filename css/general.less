@@ -2,6 +2,7 @@
 
 body {
     font-family: @font-regular;
+
     @media @breakpoint-mobile {
         background-color: @neutral;
     }
@@ -22,7 +23,8 @@ h6 {
     font-family: @font-regular;
 
 }
-.background-primary{
+
+.background-primary {
     background-color: @background-primary;
     color: @white;
 }
@@ -34,4 +36,193 @@ h6 {
 
 .container-custom {
     padding: 0 44px;
+}
+
+.horisontal-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+// Buttons
+
+.btn {
+    border-radius: @border-radius-sm  !important;
+}
+
+.btn-primary {
+    background-color: @primary  !important;
+    border-color: @primary  !important;
+
+
+
+}
+
+.btn-secondary {
+    background-color: @secondary  !important;
+    border-color: @secondary  !important;
+
+    &:hover {
+        background-color: @red-700  !important;
+        border-color: @red-700  !important;
+    }
+}
+
+.btn-outline-primary {
+    border-color: @primary  !important;
+    color: @primary  !important;
+
+    &:hover {
+        background-color: @black-900  !important;
+        border-color: @black-900  !important;
+        color: @white  !important;
+    }
+}
+
+.btn-outline-secondary {
+    border-color: @secondary  !important;
+    color: @secondary  !important;
+
+    &:hover {
+        background-color: @red-700  !important;
+        border-color: @red-700  !important;
+        color: @white  !important;
+    }
+}
+
+.btn-readmore {
+    border: @border;
+    padding: 8px 24px;
+    color: @font-neutral-light;
+    text-transform: capitalize;
+    width: 100%;
+
+    &[aria-expanded=true] {
+        i {
+            transform: rotate(180deg);
+        }
+    }
+
+    @media @breakpoint-mobile-min {
+        display: none;
+    }
+
+    i {
+        background-color: @primary;
+        padding: 2px 4px;
+        border-radius: @border-radius-sm;
+        color: @white;
+        margin-left: 4px;
+    }
+
+    &:hover {
+        color: @primary  !important;
+        border-color: @primary  !important;
+
+        i {
+            background-color: @secondary  !important;
+        }
+    }
+}
+
+
+
+main {
+    @media @breakpoint-mobile {
+        padding-top: 72px;
+    }
+}
+
+.navbar-breadcrumb {
+    .navbar-toggler {
+        border: 0;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url(../img/toggle-icon.svg);
+    }
+
+    .breadcrumb-last-item-mobile {
+        .breadcrumb {
+            margin-bottom: 0;
+            align-items: center;
+
+            .breadcrumb-item {
+                &::before {
+                    content: "";
+                }
+
+                @media @breakpoint-tablet-min {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .offcanvas {
+        height: 50vh;
+        overflow-y: scroll;
+        align-items: center;
+        padding: 16px;
+
+        @media @breakpoint-tablet-min {
+            align-items: flex-start;
+            padding: 0;
+        }
+
+
+
+        .btn-close {
+            @media @breakpoint-tablet-min {
+                display: none;
+            }
+        }
+
+        .breadcrumb {
+            margin: 16px 0;
+
+            @media @breakpoint-tablet {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .breadcrumb-item {
+                position: relative;
+
+                @media @breakpoint-tablet {
+                    padding: 12px 0;
+                    text-align: center;
+                }
+
+                &::before {
+                    @media @breakpoint-tablet {
+                        content: url(..//img/icons/icon-arrow.svg);
+                        position: absolute;
+                        right: 44%;
+                        left: auto;
+                        top: 34px;
+                        padding: 0;
+                    }
+
+                }
+
+                &:last-child{
+                    &::before {
+                        @media @breakpoint-tablet {
+                            content: "";
+                            
+                        }
+    
+                    }
+                }
+
+                a {
+                    color: @primary;
+                }
+            }
+
+        }
+    }
 }
