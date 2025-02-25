@@ -16,6 +16,29 @@
 </head>
 
 <body>
+    <div class="promo-line">
+        <div class="promo-line__block">
+            <img src="img/icons/icon-hand-heart.svg" alt="">
+            <div class="promo-line__block__description">
+                <h4>Бесплатная доставка </h4>
+                <p>Специально для вас</p>
+            </div>
+        </div>
+        <div class="promo-line__block">
+            <img src="img/icons/icon-hand-heart.svg" alt="">
+            <div class="promo-line__block__description">
+                <h4>Название акции</h4>
+                <p>Специально для вас</p>
+            </div>
+        </div>
+        <div class="promo-line__block">
+            <img src="img/icons/icon-hand-heart.svg" alt="">
+            <div class="promo-line__block__description">
+                <h4>Название акции</h4>
+                <p>Специально для вас</p>
+            </div>
+        </div>
+    </div>
     <header>
         <nav class="navbar navbar-expand navbar-dark navbar-main">
             <div class="container-fluid">
@@ -34,7 +57,7 @@
                         </li>
                         <li class="nav-item nav-item-desktop">
                             <a class="nav-link" href="#"><img src="img/icons/icon-trunk.svg" class="icon"
-                                    alt="В багажник авто"> В багажник авто</a>
+                                    alt="В багажник авто"> В багажник авто </a>
                         </li>
                         <li class="nav-item nav-item-desktop">
                             <a class="nav-link" href="#"><img src="img/icons/icon-box.svg" class="icon"
@@ -71,7 +94,8 @@
                                             <a class="dropdown-item" href="#"><img src="img/img-category-01.jpg"
                                                     alt="Подкатегория 1" /> Подкатегория 1</a>
                                             <a class="dropdown-item" href="#"><img src="img/img-category-02.jpg"
-                                                    alt="Подкатегория 2" /> Подкатегория 2</a>
+                                                    alt="Подкатегория 2" /> Подкатегория 2 Подкатегория 2 Подкатегория
+                                                2</a>
                                             <a class="dropdown-item" href="#"><img src="img/img-category-03.jpg"
                                                     alt="Подкатегория 3" /> Подкатегория 3</a>
                                             <a class="dropdown-item" href="#"><img src="img/img-category-01.jpg"
@@ -80,6 +104,13 @@
                                                     alt="Подкатегория 2" /> Подкатегория 2</a>
                                             <a class="dropdown-item" href="#"><img src="img/img-category-03.jpg"
                                                     alt="Подкатегория 3" /> Подкатегория 3</a>
+                                            <a class="dropdown-item" href="#"><img src="img/img-category-03.jpg"
+                                                    alt="Подкатегория 3" /> Подкатегория 3</a>
+                                            <a class="dropdown-item" href="#"><img src="img/img-category-03.jpg"
+                                                    alt="Подкатегория 3" /> Подкатегория 3</a>
+                                            <a class="dropdown-item" href="#"><img src="img/img-category-03.jpg"
+                                                    alt="Подкатегория 3" /> Подкатегория 3</a>
+
                                         </div>
                                         <div class="tab-pane fade" id="category-2" role="tabpanel"
                                             aria-labelledby="category-2-tab">
@@ -132,34 +163,7 @@
         </nav>
     </header>
     <main>
-        <nav id="navbar-product" class="navbar px-3 mb-3 sticky-top mobile-menu d-md-none">
-            <ul class="nav nav-underline">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#about">О товаре</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#delivery">Доставка</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#payment">Оплата</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#specs">Описание</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#video">Видео</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#spects">Характеристики</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#reviews">Отзывы</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#guarantee">Гарантия</a>
-                </li>
-            </ul>
-        </nav>
+
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-breadcrumb" aria-label="breadcrumb">
                 <div class="breadcrumb-last-item-mobile">
@@ -187,740 +191,101 @@
                 </div>
             </nav>
         </div>
-        <div id="product-product" class="container">
-            
 
+        <div class="container">
+            <div class="row">
 
-            <!-- Табы для десктопа -->
-            <ul class="nav nav-tabs d-none d-md-flex" id="productTabs" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about"
-                        type="button" role="tab" aria-controls="about" aria-selected="true">О товаре</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="delivery-tab" data-bs-toggle="tab" data-bs-target="#delivery"
-                        type="button" role="tab" aria-controls="delivery" aria-selected="false">Доставка</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="payment-tab" data-bs-toggle="tab" data-bs-target="#payment"
-                        type="button" role="tab" aria-controls="payment" aria-selected="false">Оплата</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="description-tab" data-bs-toggle="tab" data-bs-target="#description"
-                        type="button" role="tab" aria-controls="description" aria-selected="false">Описание</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="video-tab" data-bs-toggle="tab" data-bs-target="#video" type="button"
-                        role="tab" aria-controls="video" aria-selected="false">Видео</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="specs-tab" data-bs-toggle="tab" data-bs-target="#specs" type="button"
-                        role="tab" aria-controls="specs" aria-selected="false">Характеристики</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="guarantee-tab" data-bs-toggle="tab" data-bs-target="#guarantee"
-                        type="button" role="tab" aria-controls="guarantee" aria-selected="false">Гарантия</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="returns-tab" data-bs-toggle="tab" data-bs-target="#returns"
-                        type="button" role="tab" aria-controls="returns" aria-selected="false">Возврат</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews"
-                        type="button" role="tab" aria-controls="reviews" aria-selected="false">Отзывы</button>
-                </li>
-            </ul>
-
-            <!-- Контент табов -->
-            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
-                data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
-                <div class="tab-content" id="productTabsContent">
-                    <!-- О товаре -->
-                    <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
-
-                        <div class="product-column-wrap">
-                            <div class="product-column product-column__image">
-                                <img class="img-fluid" src="https://placehold.co/720x536" alt="Большое изображение" />
-                            </div>
-                            <div class="product-column product-column__title">
-                                <h1>Молдинг лента на край двери усиленный основа металл Белый 1 метр</h1>
-                            </div>
-                            <div class="product-column product-column__description">
-                                <div class="horisontal-block">
-                                    <div class="reviews">
-                                        <div class="rating">
-                                            rating
-                                        </div>
-
-                                    </div>
-                                    <span class="scu">Aрт. spoiler_lanos</span>
-                                </div>
-                                <div class="product-element color-select">
-                                    <h3>Цвет</h3>
-                                    <div class="image-select">
-                                        <label class="image-option">
-                                            <input type="radio" name="image" value="option1">
-                                            <img class="img-fluid" src="https://placehold.co/56x56" alt="option1" />
-                                        </label>
-                                        <label class="image-option">
-                                            <input type="radio" name="image" value="option2">
-                                            <img class="img-fluid" src="https://placehold.co/56x56" alt="option1" />
-                                        </label>
-                                        <label class="image-option">
-                                            <input type="radio" name="image" value="option3">
-                                            <img class="img-fluid" src="https://placehold.co/56x56" alt="option1" />
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="product-element product-descr">
-                                    <p class="status status-instock">В наличии</p>
-                                    <div class="horisontal-block">
-                                        <div class="price">
-                                            <p class="prise-reduse">843 грн/шт.</p>
-                                            <p>643 <span>грн/шт.</span>
-                                            </p>
-                                        </div>
-                                        <div class="btn-group btn-group-tools">
-                                            <button type="button" data-toggle="tooltip" class="btn btn-default"
-                                                title="В закладки" onclick="wishlist.add('43');"><i
-                                                    class="fa fa-heart"></i></button>
-                                            <button type="button" data-toggle="tooltip" class="btn btn-default"
-                                                title="В сравнение" onclick="compare.add('43');"><i
-                                                    class="fa fa-exchange"></i></button>
-                                        </div>
-                                    </div>
-
-                                    <div id="product">
-                                        <div class="form-group">
-                                            <input class="quantity" type="number" name="quantity" value="1" size="2"
-                                                id="input-quantity" class="form-control">
-                                            <input type="hidden" name="product_id" value="43">
-                                            <button type="button" id="button-cart" data-loading-text="Загрузка..."
-                                                class="btn btn-secondary btn-lg btn-block">Купить</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-element product-btn-group">
-                                    <button type="button" id="button-fast-cart" data-loading-text="Загрузка..."
-                                        class="btn btn-outline-secondary btn-lg btn-block">Быстрый заказ</button>
-                                    <button type="button" id="button-credit" data-loading-text="Загрузка..."
-                                        class="btn btn-outline-primary btn-lg btn-block">В кредит</button>
-                                    <button type="button" id="button-credit-parts" data-loading-text="Загрузка..."
-                                        class="btn btn-lg btn-block">
-                                        <p>Оплата частями <br> <span>3 платежа по 241 грн</span></p><img
-                                            class="img-fluid" src="https://placehold.co/32x32" alt="" />
-                                    </button>
-                                </div>
-
-                                <div class="product-element product-element-featured">
-                                    <h3>Вместе дешевле</h3>
-                                    <div class="product-group d-flex align-items-center gap-3">
-                                        <div class="product-block">
-                                            <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                            <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                                Экокожа Черный (Exclusive)</h4>
-                                            <p class="price">
-                                                1 999 грн
-                                            </p>
-                                        </div>
-                                        <i class="fa fa-plus"></i>
-                                        <div class="product-block">
-                                            <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                            <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                                Экокожа Черный (Exclusive)</h4>
-                                            <p class="price">
-                                                1 999 грн
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-center justify-content-center gap-3">
-                                        <div class="price-block">
-                                            <div class="price">
-                                                <p class="prise-reduse">843 грн/шт.</p>
-                                                <p>643 <span>грн/шт.</span>
-                                                </p>
-                                            </div>
-
-                                        </div>
-                                        <button type="button" id="button-cart" data-loading-text="Загрузка..."
-                                            class="btn btn-secondary btn-lg btn-block">Купить</button>
-                                    </div>
-                                </div>
-                                <div class="product-element product-element-featured product-gift">
-                                    <img class="img-fluid" src="https://placehold.co/72x72" alt="" />
-                                    <div class="product-gift-description">
-                                        <h4><span>Подарок</span>Подпятник металлический для автоковриков 30х15 см</h4>
-                                        <p class="price">
-                                            <span>1 999 грн</span> бесплатно
-                                        </p>
-                                    </div>
-
-
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-element">
-                            <h3>Аксессуары</h3>
-
-                            <div class="row product-group">
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="product-element">
-                            <h3>Смотрите также</h3>
-
-                            <div class="row product-group">
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-element">
-                            <h3>Просмотренные товары</h3>
-
-                            <div class="row product-group">
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-6">
-                                    <div class="product-block">
-                                        <img class="img-fluid" src="https://placehold.co/225x225" alt="" />
-                                        <h4>Автомобильный Органайзер саквояж в багажник М 300x310x250 мм с Логотипом
-                                            Экокожа Черный (Exclusive)</h4>
-                                        <p class="price">
-                                            1 999 грн
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <!--
-                    <div
-                    id="productContainer"
-                    class="
-                      mb-14
-                      md:max-w-lg
-                      grid
-                      gap-2
-                      md:grid-cols-[106px_minmax(0px,_1fr)]
-                    "
-                  >
-                    <div id="productCarousel" class="f-carousel md:order-last">
-                      <div
-                        class="f-carousel__slide"
-                        data-thumb-src="https://fancyapps.com/img/dress_1_s.jpg"
-                        data-fancybox="gallery"
-                        data-src="https://fancyapps.com/img/dress_1_b.jpg"
-                      >
-                        <img
-                          alt=""
-                          data-lazy-src="https://fancyapps.com/img/dress_1_m.jpg"
-                        />
-                      </div>
-                      <div
-                        class="f-carousel__slide"
-                        data-thumb-src="https://fancyapps.com/img/dress_2_s.jpg"
-                        data-fancybox="gallery"
-                        data-src="https://fancyapps.com/img/dress_2_b.jpg"
-                      >
-                        <img
-                          alt=""
-                          data-lazy-src="https://fancyapps.com/img/dress_2_m.jpg"
-                        />
-                      </div>
-                      <div
-                        class="f-carousel__slide"
-                        data-thumb-src="https://fancyapps.com/img/dress_3_s.jpg"
-                        data-fancybox="gallery"
-                        data-src="https://fancyapps.com/img/dress_3_b.jpg"
-                      >
-                        <img
-                          alt=""
-                          data-lazy-src="https://fancyapps.com/img/dress_3_m.jpg"
-                        />
-                      </div>
-                      <div
-                        class="f-carousel__slide"
-                        data-thumb-src="https://fancyapps.com/img/dress_4_s.jpg"
-                        data-fancybox="gallery"
-                        data-src="https://fancyapps.com/img/dress_4_b.jpg"
-                      >
-                        <img
-                          alt=""
-                          data-lazy-src="https://fancyapps.com/img/dress_4_m.jpg"
-                        />
-                      </div>
-                      <div
-                        class="f-carousel__slide"
-                        data-thumb-src="https://fancyapps.com/img/dress_5_s.jpg"
-                        data-fancybox="gallery"
-                        data-src="https://fancyapps.com/img/dress_5_b.jpg"
-                      >
-                        <img
-                          alt=""
-                          data-lazy-src="https://fancyapps.com/img/dress_5_m.jpg"
-                        />
-                      </div>
-                      <div
-                        class="f-carousel__slide"
-                        data-thumb-src="https://fancyapps.com/img/dress_6_s.jpg"
-                        data-fancybox="gallery"
-                        data-src="https://fancyapps.com/img/dress_6_b.jpg"
-                      >
-                        <img
-                          alt=""
-                          data-lazy-src="https://fancyapps.com/img/dress_6_m.jpg"
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-
-                    <div class="f-carousel" id="myCarousel">
-                        
-                            <a class="f-carousel__slide" href="https://via.placeholder.com/720x536" data-fancybox="gallery">
-                                <img src="https://via.placeholder.com/720x536" alt="Большое изображение" />
-                              </a>
-                        
-                              <a class="f-carousel__slide" href="https://via.placeholder.com/720x536" data-fancybox="gallery">
-                                <img src="https://via.placeholder.com/720x536" alt="Большое изображение" />
-                              </a>
-                              <a class="f-carousel__slide" href="https://via.placeholder.com/720x536" data-fancybox="gallery">
-                                <img src="https://via.placeholder.com/720x536" alt="Большое изображение" />
-                              </a>
-                      </div>
-                    -->
-
-
-
-                    <!--Доставка -->
-                    <div class="tab-pane fade" id="delivery" role="tabpanel" aria-labelledby="delivery-tab">
-                        <div class="product-element">
-                            <h3>Доставка</h3>
-                            <table class="table table-delivary">
-                                <tbody>
-                                    <tr>
-                                        <td>Упаковка <span class="table-tag">Бесплатно</span></td>
-                                        <td><span>30-70 грн.</span><strong>0 грн.</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2" class="caption">Бесплатна и надежная упаковка от Shop4Cars
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Cамовывоз</td>
-                                        <td>Бесплатно</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Курьерская доставка</td>
-                                        <td>от 70 грн.</td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2" class="caption">Мы обрабатываем заказы с понедельника по пятницу
-                                            с
-                                            9.00 до 18.00. Заказы, оформленные в нерабочее время и на выходных,
-                                            обрабатываются в ближайший рабочий день.
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <!-- Оплата -->
-                    <div class="tab-pane fade" id="payment" role="tabpanel" aria-labelledby="payment-tab">
-                        <div class="product-element">
-                            <div class="d-flex flex-wrap gap-1 mb-3">
-                                <img class="img-fluid" src="https://placehold.co/68x24" />
-                                <img class="img-fluid" src="https://placehold.co/68x24" />
-                                <img class="img-fluid" src="https://placehold.co/68x24" />
-                                <img class="img-fluid" src="https://placehold.co/68x24" />
-                                <img class="img-fluid" src="https://placehold.co/68x24" />
-                            </div>
-                            <h6>Уважаемые клиенты!</h6>
-                            <p>Отправка заказов осуществляется после частичной предоплаты</p>
-                            <div class="collapse" id="collapse-payment">
-                                <p>Отправка заказов осуществляется после частичной предоплаты</p>
-                                <p>Отправка заказов осуществляется после частичной предоплаты</p>
-                                <p>Отправка заказов осуществляется после частичной предоплаты</p>
-                            </div>
-                            <a class="btn btn-readmore" data-bs-toggle="collapse" href="#collapse-payment" role="button"
-                                aria-expanded="false" aria-controls="collapseExample">
-                                Подробнее <i class="fa fa-angle-down"></i>
+                <div class="col-md-12">
+                    <ul class="categories categories-main">
+                        <li class="category-block"><a href="#"><img src="img/img-category-01.jpg"
+                                    alt="Подкатегория 1" /> Название категории</a>
+                        </li>
+                        <li class="category-block"><a href="#"><img src="img/img-category-01.jpg"
+                                    alt="Подкатегория 1" /> Название категории Название категории Название категории</a>
+                        </li>
+                        <li class="category-block"><a href="#"><img src="img/img-category-01.jpg"
+                                    alt="Подкатегория 1" /> Название категории</a>
+                        </li>
+                        <li class="category-block"><a href="#"><img src="img/img-category-01.jpg"
+                                    alt="Подкатегория 1" /> Название категории</a>
+                        </li>
+                        <li class="category-block"><a href="#"><img src="img/img-category-01.jpg"
+                                    alt="Подкатегория 1" /> Название категории</a>
+                        </li>
+                        <li class="category-block"><a href="#"><img src="img/img-category-01.jpg"
+                                    alt="Подкатегория 1" /> Название категории</a>
+                        </li>
+                    </ul>
+                    <ul class="brands">
+                        <li class="brand-block"><a href="#"><img src="img/img-brandlogo.jpg" alt="" />
                             </a>
-                        </div>
-                    </div>
-
-                    <!-- Описание -->
-                    <div class="tab-pane fade" id="description" role="tabpanel" aria-labelledby="description-tab">
-                        <div class="product-element">
-                            <h6>Описание</h6>
-                            <p>Комплект чехлов продается без подголовников их можно <a href="#">добавить отдельно</a>
-                                Использование чехлов на сидения авто – это оптимальный способ сохранить оригинальную
-                                обивку
-                                сидений и предотвратить ее износ. </p>
-                            <div class="collapse" id="collapse-description">
-                                <p>Отправка заказов осуществляется после частичной предоплаты</p>
-                                <p>Отправка заказов осуществляется после частичной предоплаты</p>
-                                <p>Отправка заказов осуществляется после частичной предоплаты</p>
-                            </div>
-                            <a class="btn btn-readmore" data-bs-toggle="collapse" href="#collapse-description"
-                                role="button" aria-expanded="false" aria-controls="collapseExample">
-                                Подробнее <i class="fa fa-angle-down"></i>
+                        </li>
+                        <li class="brand-block"><a href="#"><img src="img/img-brandlogo.jpg" alt="" />
                             </a>
-                        </div>
-                    </div>
-
-                    <!-- Видео -->
-                    <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
-                        <div class="product-element">
-                            <h3>Видео</h3>
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item"
-                                    src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Характеристики -->
-                    <div class="tab-pane fade" id="specs" role="tabpanel" aria-labelledby="specs-tab">
-                        <div class="product-element"></div>
-
-                    </div>
-
-                    <!-- Гарантия -->
-                    <div class="tab-pane fade" id="guarantee" role="tabpanel" aria-labelledby="guarantee-tab">
-                        <div class="product-element">
-                            <h6>Гарантия</h6>
-                            <p>Комплект чехлов продается без подголовников их можно <a href="#">добавить отдельно</a>
-                                Использование чехлов на сидения авто – это оптимальный способ сохранить оригинальную
-                                обивку
-                                сидений и предотвратить ее износ. </p>
-                            <div class="collapse" id="collapse-guarantee">
-                                <p>Отправка заказов осуществляется после частичной предоплаты</p>
-                                <p>Отправка заказов осуществляется после частичной предоплаты</p>
-                                <p>Отправка заказов осуществляется после частичной предоплаты</p>
-                            </div>
-                            <a class="btn btn-readmore" data-bs-toggle="collapse" href="#collapse-guarantee"
-                                role="button" aria-expanded="false" aria-controls="collapseExample">
-                                Подробнее <i class="fa fa-angle-down"></i>
+                        </li>
+                        <li class="brand-block"><a href="#"><img src="img/img-brandlogo.jpg" alt="" />
                             </a>
-                        </div>
-
-                    </div>
-                    <!-- Возврат -->
-                    <div class="tab-pane fade" id="returns" role="tabpanel" aria-labelledby="returns-tab">
-                        <div class="product-element">
-                            <h6>Возврат</h6>
-                            <p>Комплект чехлов продается без подголовников их можно <a href="#">добавить отдельно</a>
-                                Использование чехлов на сидения авто – это оптимальный способ сохранить оригинальную
-                                обивку
-                                сидений и предотвратить ее износ. </p>
-                            <div class="collapse" id="collapse-returns">
-                                <p>Отправка заказов осуществляется после частичной предоплаты</p>
-                                <p>Отправка заказов осуществляется после частичной предоплаты</p>
-                                <p>Отправка заказов осуществляется после частичной предоплаты</p>
-                            </div>
-                            <a class="btn btn-readmore" data-bs-toggle="collapse" href="#collapse-returns" role="button"
-                                aria-expanded="false" aria-controls="collapseExample">
-                                Подробнее <i class="fa fa-angle-down"></i>
+                        </li>
+                        <li class="brand-block"><a href="#"><img src="img/img-brandlogo.jpg" alt="" />
                             </a>
-                        </div>
+                        </li>
+                        <li class="brand-block"><a href="#"><img src="img/img-brandlogo.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li class="brand-block"><a href="#"><img src="img/img-brandlogo.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li class="brand-block"><a href="#"><img src="img/img-brandlogo.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li class="brand-block"><a href="#"><img src="img/img-brandlogo.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li class="brand-block"><a href="#"><img src="img/img-brandlogo.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li class="brand-block"><a href="#"><img src="img/img-brandlogo.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li class="brand-block"><a href="#"><img src="img/img-brandlogo.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li class="brand-block"><a href="#"><img src="img/img-brandlogo.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li class="brand-block"><a href="#"><img src="img/img-brandlogo.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li class="brand-block"><a href="#"><img src="img/img-brandlogo.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li class="brand-block"><a href="#"><img src="img/img-brandlogo.jpg" alt="" />
+                            </a>
+                        </li>
 
-                    </div>
-                    <!-- Отзывы -->
-                    <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
-                        <div class="product-element"></div>
+                    </ul>
 
-                    </div>
                 </div>
             </div>
-        </div>
-
-
-
-        </div>
-
-        <!-- Мобильное нижнее меню стики -->
-        <nav class="sticky-bottom-menu">
-            <div class="container-fluid">
+            <div class="banners-group">
                 <div class="row">
-
-                    <div class="col">
-                        <div class="btn-group">
-                            <a href="#" class="btn btn-sticky-bottom-menu">
-                                <img class="sticky-bottom-menu__icon" src="img/icons/icon-nav-homepage.svg" alt="">
-                                Главная
-                            </a>
-
-                        </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid mb-2" src="https://placehold.co/440x185"
+                            srcset="https://placehold.co/440x185 1x, https://placehold.co/880x370 2x">
                     </div>
-                    <div class="col">
-                        <div class="btn-group dropup">
-                            <button type="button" class="btn btn-sticky-bottom-menu" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <img src="img/icons/icon-nav-contact.svg" alt=""> Связь
-                            </button>
-                            <ul class="dropdown-menu">
-
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-
-                            </ul>
-                        </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid mb-2" src="https://placehold.co/440x185"
+                            srcset="https://placehold.co/440x185 1x, https://placehold.co/880x370 2x">
                     </div>
-
-                    <div class="col">
-                        <div class="btn-group">
-                            <a href="#" class="btn btn-sticky-bottom-menu">
-                                <img src="img/icons/icon-nav-cart.svg" alt="">
-                                Корзина
-                            </a>
-
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="btn-group">
-                            <a href="#" class="btn btn-sticky-bottom-menu">
-                                <img src="img/icons/icon-nav-heart.svg" alt="">
-                                Избранное
-                            </a>
-
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="btn-group dropup">
-                            <button type="button" class="btn btn-sticky-bottom-menu" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <img src="img/icons/icon-nav-more.svg" alt=""> Больше
-                            </button>
-                            <ul class="dropdown-menu">
-
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-        <div class="footer-features background-primary-light">
-            <div class="container-fluid container-custom">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="footer-features-block">
-                            <img src="img/icons/icon-delivery.svg" alt="Доставка">
-                            <div class="footer-features-block__description">
-                                <h4>Доставка</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur. Dictumst donec adipiscing id lorem cursus
-                                    malesuada nunc cursus diam. Eget sed dis quis mauris non integer aliquam.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="footer-features-block">
-                            <img src="img/icons/icon-card.svg" alt="Оплата">
-                            <div class="footer-features-block__description">
-                                <h4>Оплата</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur. Dictumst donec adipiscing id lorem cursus
-                                    malesuada nunc cursus diam. Eget sed dis quis mauris non integer aliquam.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="footer-features-block">
-                            <img src="img/icons/icon-shield.svg" alt="Гарантия">
-                            <div class="footer-features-block__description">
-                                <h4>Гарантия</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur. Dictumst donec adipiscing id lorem cursus
-                                    malesuada nunc cursus diam. Eget sed dis quis mauris non integer aliquam.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="footer-features-block">
-                            <img src="img/icons/icon-refresh-square.svg" alt="Возврат">
-                            <div class="footer-features-block__description">
-                                <h4>Возврат</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur. Dictumst donec adipiscing id lorem cursus
-                                    malesuada nunc cursus diam. Eget sed dis quis mauris non integer aliquam.</p>
-                            </div>
-                        </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid mb-2" src="https://placehold.co/440x185"
+                            srcset="https://placehold.co/440x185 1x, https://placehold.co/880x370 2x">
                     </div>
                 </div>
             </div>
         </div>
+        </div>
+
     </main>
     <footer>
         <div class="footer-desktop">
@@ -1189,4 +554,3 @@
 </body>
 
 </html>
-
